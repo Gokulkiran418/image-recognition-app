@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Node.js (for Day 4 front-end)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Misc
+.DS_Store
+*.log
+temp.jpg  # Temporary images from preprocessing
