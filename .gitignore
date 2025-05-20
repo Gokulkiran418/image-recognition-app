@@ -7,6 +7,7 @@ __pycache__/
 env/
 venv/
 .env
+api/.env
 
 # Node.js (for Day 4 front-end)
 node_modules/
@@ -18,4 +19,4 @@ dist-ssr/
 # Misc
 .DS_Store
 *.log
-temp.jpg  # Temporary images from preprocessing
+temp.jpg
