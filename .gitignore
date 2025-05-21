@@ -4,12 +4,11 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
-venv/
 .env
 api/.env
+temp.jpg
 
-# Node.js (for Day 4 front-end)
+# Node.js
 node_modules/
 dist/
 dist-ssr/
@@ -19,4 +18,3 @@ dist-ssr/
 # Misc
 .DS_Store
 *.log
-temp.jpg
