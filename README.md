@@ -1,17 +1,12 @@
-# Image Recognition Web App
-A full-stack web app for recognizing objects in images using TensorFlow.js and Flask, deployed on Vercel.
+# React + Vite
 
-## Tech Stack
-- AI: TensorFlow.js (4.x)
-- Back-end: Flask (3.x)
-- Front-end: React, Vite (Day 4)
-- Deployment: Vercel
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Setup
-1. Clone: `git clone https://github.com/your-username/image-recognition-app.git`
-2. Install: `cd api && pip install -r requirements.txt`
-3. Set `.env`: `FLASK_ENV=development`
-4. Run: `python app.py`
+Currently, two official plugins are available:
 
-## Progress
-- Day 3: Set up Flask back-end and image preprocessing.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
